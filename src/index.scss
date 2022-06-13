@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: 'Roboto', system-ui;
@@ -59,4 +62,18 @@ header {
   height: 32px;
   width: 32px;
   cursor: pointer;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.search-block {
+  border: 1px solid #f3f3f3
 }

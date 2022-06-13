@@ -16,12 +16,18 @@ function App() {
           <li><img width={18} height={18} src="/img/user.png"></img></li>
         </ul>
       </header>
-      <div className = "content p-40 d-flex">
-      <h1 className="mb-40">Все кроссовки</h1>
-    
-    <div className="row4cards">
+      <div className = "content p-40 mb-40">
+      <div className="d-flex align-center justify-between">
+        <h1>Все кроссовки</h1>
+        <div className="search-block">
+          <img src="/img/search.svg" alt="Search" />
+          <input placeholder="Search..." />
+        </div>
+      </div>
+      
+    <div className="d-flex">
     <div className="card">
-        <img width={133} height={112} src="/img/trainers/train1.jpg" alt="sNickers"></img>
+        <img width={133} height={112} src="/img/trainers/train1.jpg" alt="sNickers"/>
         <h5>Мужские Кроссовки Nike Air Max 270</h5>
         <div className="d-flex justify-between align-center">
         <div className="d-flex flex-column">
@@ -29,22 +35,21 @@ function App() {
           <b>259,99 $</b>
         </div>
         <button className="button">
-          <img width={11} height={11} src="/img/plus.svg" alt="Plus"></img>
+          <img width={11} height={11} src="/img/plus.svg" alt="Plus"/>
         </button>
       </div>
     </div>
 
-  
-  <div className="card">
-  <img width={133} height={112} src="/img/trainers/train2.jpg" alt="sNickers"></img>
-  <h5>Мужские Кроссовки Nike Kyrie Flytrap IV</h5>
-  <div className="d-flex justify-between align-center">
-  <div className="d-flex flex-column">
-    <p>Price:</p>
-    <b>249,99 $</b>
-  </div>
-  <button className="button">
-    <img width={11} height={11} src="/img/plus.svg" alt="Plus"></img>
+    <div className="card">
+        <img width={133} height={112} src="/img/trainers/train2.jpg" alt="sNickers"/>
+        <h5>Мужские Кроссовки Nike Kyrie Flytrap IV</h5>
+        <div className="d-flex justify-between align-center">
+        <div className="d-flex flex-column">
+          <p>Price:</p>
+          <b>249,99 $</b>
+        </div>
+        <button className="button">
+        <img width={11} height={11} src="/img/plus.svg" alt="Plus"></img>
   </button>
 </div>
 </div>
@@ -167,9 +172,9 @@ function App() {
       </div>
     </div>
     <div className="card">
-        <img width={133} height={112} src="/img/trainers/train7.jpg" alt="sNickers"></img>
+        <img width={133} height={112} src="/img/trainers/train7.jpg" alt="sNickers"/>
         <h5>Мужские Кроссовки Nike Kyrie 7</h5>
-        <div className="d-flex justify-between align-center">
+        <div className="d-flex justify-between">
         <div className="d-flex flex-column">
           <p>Price:</p>
           <b>269,99 $</b>
@@ -180,7 +185,7 @@ function App() {
       </div>
     </div>
 </div>
-    </div>
+</div>
   
   );
 }
