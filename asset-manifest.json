@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/daniyelyellings.github.io/static/css/main.2c9cb81c.css",
+    "main.js": "/github.io/daniyelyellings.github.io/static/js/main.7f51ac9e.js",
+    "index.html": "/github.io/daniyelyellings.github.io/index.html",
+    "main.2c9cb81c.css.map": "/github.io/daniyelyellings.github.io/static/css/main.2c9cb81c.css.map",
+    "main.7f51ac9e.js.map": "/github.io/daniyelyellings.github.io/static/js/main.7f51ac9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c9cb81c.css",
+    "static/js/main.7f51ac9e.js"
+  ]
+}
